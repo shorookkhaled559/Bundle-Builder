@@ -163,6 +163,7 @@
           "description": "Detects movement in any room and sends an instant alert.",
           "learnMoreUrl": "#",
           "icon": "motion-sensor",
+          "image": "/images/motion-sensor.jpg",
           "unitPrice": 29.99,
           "defaultQuantity": 2
         },
@@ -172,6 +173,7 @@
           "description": "The brains of your sensor system. One hub covers your whole home.",
           "learnMoreUrl": "#",
           "icon": "hub",
+          "image": "/images/hub.jpg",
           "unitPrice": 0,
           "compareAtPrice": 29.92,
           "priceLabelOverride": "FREE",
@@ -214,6 +216,7 @@
           "description": "Local backup storage for your cameras, no subscription required.",
           "learnMoreUrl": "#",
           "icon": "sd-card",
+          "image": "/images/microsd-256.jpg",
           "unitPrice": 20.98,
           "defaultQuantity": 2
         },

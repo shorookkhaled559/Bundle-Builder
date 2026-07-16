@@ -85,7 +85,7 @@ export default function ReviewPanel({
           <div key={group.category}>
             <div className={styles.groupLabel}>
               {group.category === 'Plan'
-                ? 'HOME MONITORING PLAN'
+                ? 'PLAN'
                 : group.category.toUpperCase()}
             </div>
 

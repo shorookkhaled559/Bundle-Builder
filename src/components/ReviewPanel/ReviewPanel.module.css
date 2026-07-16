@@ -1,5 +1,5 @@
 .panel {
-  background: #eef0ff;
+  background: #EDF4FF;
   border-radius: 16px;
   padding: 20px;
 }
@@ -12,7 +12,7 @@
 
 .reviewLabel {
   display: none;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.04em;
   color: #9ca3af;
@@ -27,15 +27,15 @@
 
 .title {
   margin: 0;
-  font-size: 24px;
-  font-weight: 700;
-  color: #111827;
+  font-size: 22px;
+  font-weight: 600;
+  color: #1F1F1F;
 }
 
 .subtitle {
   margin: 8px 0 0;
   font-size: 14px;
-  color: #6b7280;
+  color: #1F1F1FBF;
   line-height: 1.5;
 }
 
@@ -52,10 +52,10 @@
 }
 
 .groupLabel {
-  font-size: 11px;
-  font-weight: 600;
+  font-size: 12px;
+  font-weight: 400;
   letter-spacing: 0.04em;
-  color: #9ca3af;
+  color: #A8B2BD;
   margin-bottom: 12px;
 }
 
@@ -84,9 +84,9 @@
   font-size: 14px;
   font-weight: 500;
   color: #111827;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  white-space: normal;
+  word-break: break-word;
+  overflow-wrap: anywhere;
 }
 
 .accent {
@@ -113,7 +113,7 @@
 }
 
 .lineCompare {
-  font-size: 12px;
+  font-size: 14px;
   color: #9ca3af;
   text-decoration: line-through;
 }

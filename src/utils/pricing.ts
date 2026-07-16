@@ -80,7 +80,13 @@ export function buildReviewLines(selections: Selections): ReviewLine[] {
 
 /** Group review lines by category, keeping the step order from JSON. */
 export function groupLinesByCategory(lines: ReviewLine[]) {
-  const order = data.steps.map((s) => s.category);
+  const order = [
+    'Cameras',
+    'Sensors',
+    'Accessories',
+    'Plan',
+  ];
+
   const groups: Record<string, ReviewLine[]> = {};
 
   lines.forEach((line) => {

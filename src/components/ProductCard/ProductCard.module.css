@@ -1,12 +1,11 @@
 .card {
   position: relative;
   display: flex;
-  flex-direction: column;
-  gap: 12px;
+  align-items: stretch;
   border-radius: 12px;
   border: 1px solid transparent;
   background: #fff;
-  padding: 16px;
+  overflow: hidden;
   transition: border-color 0.15s, box-shadow 0.15s;
 }
 
@@ -25,31 +24,57 @@
   font-size: 12px;
   font-weight: 400;
   padding: 2px 6px;
-  z-index: 1;
+  z-index: 2;
 }
 
-.top {
+.media {
+  width: 112px;
+  flex-shrink: 0;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 8px;
+  box-sizing: border-box;
+}
+
+.mediaImage {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.mediaIcon {
+  width: 60%;
+  height: 60%;
+  color: #6b7280;
+}
+
+.content {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
   gap: 12px;
+  padding: 16px 16px 16px 0;
 }
 
 .info {
-  flex: 1;
   min-width: 0;
 }
 
 .name {
   margin: 0;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
-  color: #111827;
+  color: #1F1F1F;
   line-height: 1.35;
 }
 
 .description {
   margin: 4px 0 0;
   font-size: 12px;
-  color: #6b7280;
+  color: #1F1F1FBF;
   line-height: 1.4;
 }
 
@@ -64,7 +89,7 @@
 }
 
 .footer {
-  margin-top: 4px;
+  margin-top: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -77,13 +102,13 @@
 }
 
 .compareAt {
-  font-size: 12px;
-  color: #ef4444;
+  font-size: 16px;
+  color:#D8392B;
   text-decoration: line-through;
 }
 
 .price {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
-  color: #111827;
+  color: #575757;
 }
