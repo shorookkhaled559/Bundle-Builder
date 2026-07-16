@@ -1,0 +1,39 @@
+.thumb {
+  border-radius: 12px;
+  flex-shrink: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.thumbIcon {
+  color: #6b7280;
+}
+
+.thumbImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.thumbSm {
+  width: 36px;
+  height: 36px;
+}
+
+.thumbMd {
+  width: 80px;
+  height: 80px;
+}
+
+.thumbLg {
+  width: 96px;
+  height: 96px;
+}
+
+.iconInside {
+  width: 50%;
+  height: 50%;
+}

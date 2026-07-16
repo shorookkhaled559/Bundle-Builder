@@ -1,0 +1,56 @@
+.stepper {
+  display: flex;
+  align-items: center;
+}
+
+.md {
+  gap: 12px;
+}
+
+.sm {
+  gap: 8px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  background: #fff;
+  color: #4b5563;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s, opacity 0.15s;
+  line-height: 1;
+  padding: 0;
+}
+
+.md .btn {
+  width: 28px;
+  height: 28px;
+  font-size: 16px;
+}
+
+.sm .btn {
+  width: 24px;
+  height: 24px;
+  font-size: 14px;
+}
+
+.btn:hover:not(:disabled) {
+  border-color: #9ca3af;
+  background: #f9fafb;
+}
+
+.btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.value {
+  min-width: 1ch;
+  text-align: center;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+  color: #111827;
+}

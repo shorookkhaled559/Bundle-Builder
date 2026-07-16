@@ -1,0 +1,37 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.chip {
+  width: 65px;
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #CCCCCC;
+  border-radius: 2px;
+  padding: 1px 3px;
+  font-size: 10px;
+  font-weight: 500;
+  color: #374151;
+  background: #fff;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s, color 0.15s;
+}
+
+.chip:hover {
+  border-color: #9ca3af;
+}
+
+.chipActive {
+  border-color: #0AA288;
+  background: #1DF0BB0A;
+  color: #111827;
+}
+
+.thumbnail {
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
